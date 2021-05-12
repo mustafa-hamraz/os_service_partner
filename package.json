@@ -4,6 +4,7 @@
   "description": "OS Service Partner hjälper dig med företagets scanner. Vi erbjuder reparation, service, support och utbildning av din scanner.",
   "version": "0.1.0",
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "gatsby": "^3.4.1",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
     "gatsby-plugin-image": "^1.4.0",
@@ -15,6 +16,7 @@
     "gatsby-transformer-sharp": "^3.4.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
   },
