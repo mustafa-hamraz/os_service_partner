@@ -37,7 +37,7 @@ function Seo({ description, lang, meta, title }) {
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
-          name: `description`,
+          name: `Os Service Partner`,
           content: metaDescription,
         },
         {
@@ -51,23 +51,7 @@ function Seo({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
+        }
       ].concat(meta)}
     />
   )
@@ -76,7 +60,7 @@ function Seo({ description, lang, meta, title }) {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `OS Service Partner hjälper dig med företagets scanner. Vi erbjuder reparation, service, support och utbildning av din scanner.`,
 }
 
 Seo.propTypes = {
